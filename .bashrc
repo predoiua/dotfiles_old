@@ -162,7 +162,7 @@ shopt -s histappend
 
 # Make prompt informative
 # See:  http://www.ukuug.org/events/linux2003/papers/bash_tips/
-PS1="\[\033[0;34m\][\u@\h:\w]$\[\033[0m\]"
+PS1="\[\033[0;36m\][\u@\h:\w]$\[\033[0m\]"
 
 ## -----------------------
 ## -- 2) Set up aliases --
@@ -212,3 +212,5 @@ LS_COLORS=$LS_COLORS:'di=0;35:' ; export LS_COLORS
 
 ## Define any user-specific variables you want here.
 #source ~/.bashrc_custom
+
+set -o vi
