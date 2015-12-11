@@ -214,3 +214,4 @@ LS_COLORS=$LS_COLORS:'di=0;35:' ; export LS_COLORS
 #source ~/.bashrc_custom
 
 set -o vi
+bind -m vi-insert "\C-l":clear-screen
